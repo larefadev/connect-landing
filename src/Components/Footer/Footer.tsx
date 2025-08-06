@@ -8,7 +8,7 @@ export const Footer = () => {
                 <div>
                     <img src="/Images/Connect-isotipo.svg" className="h-30" alt="Logo" />
                     <p className="text-[#666] text-[13px] leading-relaxed max-w-[340px]">
-                        Vende repuestos sin inventario. Tú decides cuánto ganas.
+                        Vende refacciones sin inventario. Tú decides cuánto ganas.
                         Accede a más de 250,000 autopartes de nuestro catálogo.
                     </p>
                 </div>
@@ -60,7 +60,7 @@ export const Footer = () => {
 
             {/* Bottom Bar */}
             <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center text-[11px] text-[#666]">
-                <span>© 2025 La Refa. Todos los Derechos Reservados.</span>
+                <span>© 2025 refacciones.com. Todos los Derechos Reservados.</span>
                 <div className="flex gap-6 mt-2 md:mt-0">
                     <a href="#" className="hover:underline">Política de privacidad</a>
                     <a href="#" className="hover:underline">Términos de servicio</a>

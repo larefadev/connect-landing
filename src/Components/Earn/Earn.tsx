@@ -29,11 +29,11 @@ export const Earn = () => {
           </span>
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                    ¿Quién puede ganar con La Refa?
+                    ¿Quién puede ganar con Connect?
                 </h2>
                 <p className="text-gray-600 text-lg max-w-3xl mx-auto mb-16">
                     Ya sea que repares autos, vendas en línea o tengas una refaccionaria,
-                    La Refa está diseñada para hacer crecer tus ingresos sin riesgo de inventario.
+                    Connect está diseñado para hacer crecer tus ingresos sin riesgo de inventario.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10">

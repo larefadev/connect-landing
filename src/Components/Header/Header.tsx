@@ -91,7 +91,7 @@ export const Header = () => {
                         <span>Tú decides cuánto ganas</span>
                     </h1>
                     <p className="mt-6 text-gray-600 text-lg">
-                        Inicia tu propio negocio de repuestos con cero inversión. Establece tu
+                        Inicia tu propio negocio de refacciones con cero inversión. Establece tu
                         margen de ganancia, y nosotros nos encargamos del inventario, envíos y atención al cliente.
                     </p>
 

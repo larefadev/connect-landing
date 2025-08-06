@@ -17,7 +17,7 @@ export const Benefits = () => {
         },
         {
             title: "Catálogo Extenso de Productos",
-            description: "Accede a más de 250,000 repuestos actualizados en tiempo real con detalles precisos.",
+            description: "Accede a más de 250,000 refacciones actualizados en tiempo real con detalles precisos.",
             icon: "📄",
         },
         {
@@ -47,7 +47,7 @@ export const Benefits = () => {
 
                 {/* Subtítulo */}
                 <p className="mt-4 max-w-2xl mx-auto text-gray-600 text-base md:text-lg">
-                    Haz crecer tu negocio de repuestos sin el estrés del inventario, logística o gastos generales.
+                    Haz crecer tu negocio de refacciones sin el estrés del inventario, logística o gastos generales.
                     Hacemos que sea fácil escalar, ganar y tener éxito—en tus propios términos.
                 </p>
 

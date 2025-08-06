@@ -9,7 +9,7 @@ export const Plan = () => {
             name: "Gratuito",
             title: "Ideal para Principiantes",
             description:
-                "Perfecto si apenas estás comenzando o probando las aguas. Sin costo inicial—comienza a vender repuestos hoy y aprende sin ningún riesgo.",
+                "Perfecto si apenas estás comenzando o probando las aguas. Sin costo inicial—comienza a vender refacciones hoy y aprende sin ningún riesgo.",
             price: "$0",
             features: [
                 "Hasta 200 productos en tu catálogo",
@@ -98,7 +98,7 @@ export const Plan = () => {
                     Elige el Plan que se Adapte a tu Negocio
                 </h1>
                 <p className="text-gray-600 text-lg mb-6">
-                    Ya sea que apenas estés comenzando o escalando rápidamente — La Refa tiene un plan
+                    Ya sea que apenas estés comenzando o escalando rápidamente — Connect tiene un plan
                     para cada tipo de vendedor.
                 </p>
 

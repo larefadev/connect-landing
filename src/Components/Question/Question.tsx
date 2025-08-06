@@ -10,8 +10,7 @@ export const Question = () => {
                             ¿Cansado de perder ventas porque no tienes la pieza correcta?
                         </h2>
                         <p className="text-gray-800 text-xs leading-tight">
-                            No deberías tener que decir "no lo tenemos" nunca más. Con La Refa, puedes vender un catálogo enorme sin comprar ni almacenar nada.
-                            Trabajador preocupado.
+                            No deberías tener que decir "no lo tenemos" nunca más. Con Connect, puedes vender un catálogo enorme sin comprar ni almacenar nada.
                         </p>
                     </div>
 
@@ -37,8 +36,7 @@ export const Question = () => {
                             ¿Cansado de perder ventas porque no tienes la pieza correcta?
                         </h2>
                         <p className="text-gray-800 text-base leading-relaxed">
-                            No deberías tener que decir "no lo tenemos" nunca más. Con La Refa, puedes vender un catálogo enorme sin comprar ni almacenar nada.
-                            Trabajador preocupado.
+                            No deberías tener que decir "no lo tenemos" nunca más. Con La Connect, puedes vender un catálogo enorme sin comprar ni almacenar nada.
                         </p>
                     </div>
 

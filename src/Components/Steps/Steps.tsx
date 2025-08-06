@@ -6,7 +6,7 @@ export const Steps = () => {
             number: "1",
             title: "Elige tus Refacciones",
             description:
-                "Navega entre más de 250,000 repuestos de autos en nuestro catálogo, actualizado en tiempo real con detalles precisos e imágenes.",
+                "Navega entre más de 250,000 refacciones de autos en nuestro catálogo, actualizado en tiempo real con detalles precisos e imágenes.",
             color: "bg-pink-100 text-pink-500",
             icon: "🛠️",
         },
@@ -38,7 +38,7 @@ export const Steps = () => {
                     Cómo Funciona - 3 Pasos Simples
                 </h2>
                 <p className="mt-4 max-w-2xl mx-auto text-gray-600 text-base md:text-lg">
-                    La Refa hace que sea fácil para cualquiera comenzar a vender repuestos de autos en línea. Con nuestro
+                    Connect hace que sea fácil para cualquiera comenzar a vender refacciones de autos en línea. Con nuestro
                     modelo de dropshipping, tú eliges qué vender, estableces tu propia ganancia, y nosotros nos encargamos del
                     resto — incluyendo envíos e inventario.
                 </p>
