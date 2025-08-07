@@ -53,6 +53,7 @@ export function Form() {
                 lastname: "",
                 phone: "",
                 type: "",
+                city: "",
             });
             setTimeout(() => {
                 setAlertState(prev => ({ ...prev, show: false }));
@@ -176,6 +177,15 @@ export function Form() {
                                     value={sendRegister.email}
                                     className="border border-gray-300 rounded-lg px-4 py-3 text-sm w-full focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                                     onChange={(e) => setSendRegister({...sendRegister, email: e.target.value})}
+                                    disabled={isSubmitting}
+                                    required
+                                />
+                                <input
+                                    type="city"
+                                    placeholder="¿En qué ciudad esta tu negocio?"
+                                    value={sendRegister.email}
+                                    className="border border-gray-300 rounded-lg px-4 py-3 text-sm w-full focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
+                                    onChange={(e) => setSendRegister({...sendRegister, city: e.target.value})}
                                     disabled={isSubmitting}
                                     required
                                 />

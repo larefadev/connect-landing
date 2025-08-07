@@ -216,7 +216,7 @@ export const Plan = () => {
                             }`}
                         >
                             {plan.tag && (
-                                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-red-500 text-white text-xs font-medium px-3 py-1 rounded-full border-4 border-gray-50 w-max">
+                                <div className="absolute -top-1 left-1/2 -translate-x-1/2 bg-red-500 text-white text-xs font-medium px-3 py-1 rounded-full border-4 border-gray-50 w-max">
                                     {plan.tag}
                                 </div>
                             )}
@@ -242,11 +242,11 @@ export const Plan = () => {
 
                             <div className="text-3xl font-extrabold text-gray-900 mb-6">
                                 {plan.price}
-                                <span className="text-sm font-normal text-gray-500">/month</span>
+                                <span className="text-sm font-normal text-gray-500">/mes</span>
                             </div>
 
                             <div className="mb-6">
-                                <h4 className="text-xs font-semibold text-gray-900 mb-3">Features</h4>
+                                <h4 className="text-xs font-semibold text-gray-900 mb-3">Características</h4>
                                 <ul className="space-y-2">
                                     {plan.features.map((feature, featureIndex) => (
                                         <li

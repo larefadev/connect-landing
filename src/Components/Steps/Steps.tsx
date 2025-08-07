@@ -1,4 +1,3 @@
-import { ArrowUpRight } from "lucide-react";
 
 export const Steps = () => {
     const steps = [
@@ -7,7 +6,7 @@ export const Steps = () => {
             title: "Elige tus Refacciones",
             description:
                 "Navega entre más de 250,000 refacciones de autos en nuestro catálogo, actualizado en tiempo real con detalles precisos e imágenes.",
-            color: "bg-pink-100 text-pink-500",
+            color: "text-pink-500",
             icon: "🛠️",
         },
         {
@@ -15,7 +14,7 @@ export const Steps = () => {
             title: "Establece tu Ganancia",
             description:
                 "Define tus propias ganancias agregando un margen personalizado sobre los precios de mayoreo — la ganancia es tuya para controlar.",
-            color: "bg-orange-100 text-orange-500",
+            color: "text-orange-500",
             icon: "💰",
         },
         {
@@ -23,7 +22,7 @@ export const Steps = () => {
             title: "Nosotros Enviamos por Ti",
             description:
                 "Una vez que tu cliente realiza un pedido, empacamos y entregamos el producto directamente a su puerta — a nivel nacional.",
-            color: "bg-blue-100 text-blue-500",
+            color: "text-blue-500",
             icon: "🚚",
         },
     ];
@@ -52,7 +51,7 @@ export const Steps = () => {
                         >
                             {/* Número grande en el fondo */}
                             <span
-                                className={`absolute -top-6 -left-4 text-[100px] font-bold ${step.color} opacity-10 select-none`}
+                                className={`absolute -top-6 -right-[2px] text-[100px] font-bold ${step.color} opacity-30 select-none`}
                             >
                                 {step.number}
                             </span>
@@ -69,12 +68,12 @@ export const Steps = () => {
                             <p className="text-gray-600 mt-2 text-sm">{step.description}</p>
 
                             {/* Link */}
-                            <a
-                                href="#"
-                                className="text-red-500 font-semibold mt-4 inline-flex items-center text-sm hover:underline"
-                            >
-                                Saber más <ArrowUpRight className="ml-1 h-4 w-4" />
-                            </a>
+                            {/*<a*/}
+                            {/*    href="#"*/}
+                            {/*    className="text-red-500 font-semibold mt-4 inline-flex items-center text-sm hover:underline"*/}
+                            {/*>*/}
+                            {/*    Saber más <ArrowUpRight className="ml-1 h-4 w-4" />*/}
+                            {/*</a>*/}
                         </div>
                     ))}
                 </div>

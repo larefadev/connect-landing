@@ -1,5 +1,5 @@
 import { useParallax } from "../../Hooks/useParallax.ts";
-import {ArrowRight, Play} from "lucide-react";
+import {ArrowRight, DollarSign, Package, Play, TriangleAlert} from "lucide-react";
 
 export const Header = () => {
     const backgroundOffset = useParallax(0.3);
@@ -86,13 +86,12 @@ export const Header = () => {
 
                 {/* Hero Section */}
                 <div className="mt-20 text-center max-w-4xl mx-auto px-4">
-                    <h1 className="text-4xl lg:text-5xl font-extrabold text-black leading-tight">
-                        Vende refacciones sin inventario<br />
-                        <span>Tú decides cuánto ganas</span>
+                    <h1 className="text-3xl lg:text-5xl font-extrabold text-black leading-tight w-full">
+                        Lleva tu refaccionaria al siguiente nivel<br />
+                        <span className={"text-red-500"}>Todo desde una sola plataforma</span>
                     </h1>
                     <p className="mt-6 text-gray-600 text-lg">
-                        Inicia tu propio negocio de refacciones con cero inversión. Establece tu
-                        margen de ganancia, y nosotros nos encargamos del inventario, envíos y atención al cliente.
+                        Conecta tu negocio a un catálogo con más de 250,000 partes. Vende en tu tienda o en línea sin complicarte.
                     </p>
 
                     <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -129,7 +128,7 @@ export const Header = () => {
                     className="mt-16 flex justify-center transition-transform duration-200 ease-out"
                 >
                     <img
-                        src="/Images/Header.png"
+                        src="/Images/HeaderChange.png"
                         alt="Vista previa del dashboard"
                         className="max-w-full h-auto"
                     />

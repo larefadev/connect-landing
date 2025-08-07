@@ -2,19 +2,19 @@ const personas = [
     {
         title: "Talleres Mecánicos",
         description:
-            "Ofrece más a tus clientes sin almacenar ni una sola refacción. Solo encuéntrala, fija tu ganancia y nosotros la enviamos por ti.",
+            "Suma valor a tu servicio sin almacenar refacciones. Encuentra la pieza, define tu ganancia y nosotros nos encargamos del resto.",
         image: "/Images/mec4.jpg",
     },
     {
-        title: "Refaccionarias Pequeñas",
+        title: "Refaccionarias",
         description:
-            "Compite con las grandes tiendas. Expande tu catálogo al instante y no pierdas más ventas por falta de inventario.",
+            "Amplía tu catálogo al instante y compite con los grandes, sin preocuparte por el inventario ni la logística.",
         image: "/Images/mc3.jpg",
     },
     {
-        title: "Mecánicos Independientes",
+        title: "Socios",
         description:
-            "Ofrece más a tus clientes sin almacenar nada. Solo encuéntrala, fija tu ganancia y nosotros la enviamos por ti.",
+            "Emprende o diversifica tus ingresos vendiendo refacciones sin almacenar nada. Tú vendes, nosotros enviamos.",
         image: "/Images/mec2.jpg",
     },
 ];
