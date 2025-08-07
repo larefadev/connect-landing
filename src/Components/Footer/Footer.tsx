@@ -3,10 +3,10 @@ import { ArrowUpRight } from "lucide-react";
 export const Footer = () => {
     return (
         <footer className="w-full bg-white pt-5 text-[#333] text-sm">
-            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
+            <div className="max-w-9xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10 flex-row justify-between items-center">
                 {/* Logo + Description */}
-                <div>
-                    <img src="/Images/Connect-isotipo.svg" className="h-30" alt="Logo" />
+                <div className={"flex flex-row gap-2 items-center"}>
+                    <img src="/Images/Connect-isotipo.svg" className="h-60" alt="Logo" />
                     <p className="text-[#666] text-[13px] leading-relaxed max-w-[340px]">
                         Vende refacciones sin inventario. Tú decides cuánto ganas.
                         Accede a más de 250,000 autopartes de nuestro catálogo.
