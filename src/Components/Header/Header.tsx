@@ -1,5 +1,5 @@
 import { useParallax } from "../../Hooks/useParallax.ts";
-import {ArrowRight, DollarSign, Package, Play, TriangleAlert} from "lucide-react";
+import {ArrowRight, Play} from "lucide-react";
 
 export const Header = () => {
     const backgroundOffset = useParallax(0.3);

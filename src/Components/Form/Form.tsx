@@ -32,6 +32,7 @@ export function Form() {
         lastname: "",
         phone: "",
         type: "",
+        city: "",
     });
     const [alertState, setAlertState] = useState<AlertState>({
         show: false,

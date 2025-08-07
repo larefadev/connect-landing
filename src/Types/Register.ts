@@ -4,4 +4,5 @@ export interface Register {
     lastname: string;
     phone: string;
     type: string;
+    city: string;
 }
